@@ -4,9 +4,9 @@
 
 - _**git log**_ - _Mostrar todos os commits, começando pelo mais novo_
 
-- _**git log -p < file > **_ - _Mostrar mudanças ao longo do tempo para um arquivo específico_
+- _**git log -p < file >**_ - _Mostrar mudanças ao longo do tempo para um arquivo específico_
 
-- _**git blame < file > **_ - _Mostra quem alterou o quê e quando em < file >_
+- _**git blame < file >**_ - _Mostra quem alterou o quê e quando em < file >_
 
   
 
