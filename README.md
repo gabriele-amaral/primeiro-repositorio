@@ -2,7 +2,7 @@
 
 - Aqui contém algumas informações que eu acho importante salvar no decorrer do meu curso. :floppy_disk::sparkles:
 
-#### Links úteis:
+#### :link: Links úteis:
 
 >  [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
 
