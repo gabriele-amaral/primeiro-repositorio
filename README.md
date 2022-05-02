@@ -11,3 +11,9 @@
 > [Download Portugol](http://lite.acad.univali.br/portugol/)
 
 > [Download Flowgorithm](http://www.flowgorithm.org/download/) _programa com o nome difícil_ :clown_face:
+
+> [jQuery User Interface](https://releases.jquery.com/ui/)
+
+> [W3schools](https://www.w3schools.com)
+
+> [Download Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)

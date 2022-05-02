@@ -1,0 +1,206 @@
+    /* o asterisco seleciona todos os elementos do body */
+    /* box-sizing: border-box; */
+    /* indica que o tamanho levará em conta até a borda, ou seja,
+    o width será a soma do conteúdo com a borda e o padding colocado 
+    usado geralmente quando não se usa o flex*/
+
+body{
+    margin: 0;
+    /* tira a margem padrão do corpo da página inteira */
+    height: 100%;
+    width: 100%;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    background-image: url(resources/sakura.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    /* Barra de Navegação */
+    /* a princípio coloquei borda em todos os elementos para
+    melhor me localizar */
+#main-navbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #dc90c1;
+    /* aqui eu mexo no container principal, parentes e filhos */
+}
+
+#main-navbar ul{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    padding: 0;
+    list-style: none;
+    /* aqui eu consigo nos filhos separadamente, porém ele (filhos) seriam
+    básicamente o container dos netos */
+}
+
+#main-navbar ul li{
+    margin: auto;
+    padding: 10px;
+    /* aqui eu consigo mexer nos netos */
+}
+
+#main-navbar ul li:hover{
+    background-color:#652a4e;;
+    border-radius: 5px;
+    /* hover é uma pseudo-classe mas não é necessáriamente ativa
+    nesse exemplo, é ativada com a passada de mouse */
+}
+
+#main-navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font: lighter;
+    /* aqui estou mexendo na estilização apenas do link */
+}
+
+#main-navbar ul li a:hover{
+    color: deeppink;
+}
+
+    /* Fim da Barra de Navegação */
+
+    /* Logo */
+#logo{
+    font-family: 'Rock Salt', cursive;
+    display: flex;
+    justify-content: center;
+    /* aqui eu mexo com o container logo */
+    background-color: #362535;
+}
+
+#logo h1 a{
+    text-decoration: none;
+    color: white;
+    /* aqui estou mexendo na estilização apenas do link */
+}
+
+#logo h1 a:hover{
+    color: deeppink;
+    /* aqui estou mexendo na pseudoclasse novamente, essa
+    assim como a da acima, ativa com a passada de mouse */
+}
+    /* Fim da Logo */
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    height: 1000px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(54,37,53, 0.7),rgba(54,37,53, 0.7));
+}
+ 
+#aboutme{
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#aboutme p{
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+#products{
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#products img{
+    width: 150px;
+    min-width: none;
+    margin: 10px;
+}
+
+#products h3{
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: white;
+}
+
+#contact{
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+form .form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1000px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(rgba(54,37,53, 0.7),rgba(54,37,53, 0.7));
+}
+
+form label{
+    padding: 5px;
+    font-size: 18px;
+}
+
+form input{
+    border: 3px solid #d294c2;
+    padding: 7px; 
+       
+}
+
+form select{
+    border: 3px solid #d294c2;
+    padding: 7px; 
+}
+
+form textarea{
+    border: 3px solid #d294c2;
+    padding: 7px; 
+}
+
+.submit{
+    border: 2px solid #d294c2;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.submit:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+footer{
+    background-color: #362535;
+    padding: 20px;
+    text-align: end;
+    font-size: 8px;
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: deeppink;
+    cursor: pointer;
+}

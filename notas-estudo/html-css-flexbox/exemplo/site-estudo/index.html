@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Rock+Salt&family=Urbanist:wght@100;300&display=swap" rel="stylesheet">
+    <title>Projeto</title>
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <h1><a href="index.html">GabiTechArt</a></h1>
+        </section>
+        <nav id="main-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="aboutme">
+            <h1 >Sobre mim</h1>        
+            <div class="container">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Recusandae rem eligendi repellat laboriosam. Vero dignissimos 
+                quo facere repellat suscipit quaerat quis fugit voluptates aliquam 
+                illum cumque veritatis non, consectetur sit.</p>       
+            </div>
+        </section>
+
+        <section id="products">
+            <h1>Produtos</h1>
+            <div class="container">
+                <div>
+                    <img src="/resources/gabi.png">
+                    <h3>Emotes Twitch</h3>
+                </div>
+
+                <div>
+                    <img src="/resources/gabi.png">
+                    <h3>Badges Twitch</h3>
+                </div>
+
+                <div>
+                    <img src="/resources/gabi.png">
+                    <h3>Emotes Twitch</h3>
+                </div>
+
+                <div>
+                    <img src="/resources/gabi.png">
+                    <h3>Emotes Twitch</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h1>Faça já sua encomenda!</h1>
+            <h5><i>Prazo de no mínimo 30 dias úteis.</i></h5>
+            <form action="form.php" method="post">
+                <div class="form">
+                    <label>Nome</label>
+                    <input type="text" placeholder="seu primeiro nome">   
+                <br>
+                    <label>Sobrenome</label>
+                    <input type="text" placeholder="seu último nome">   
+                <br>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="ex: gabi.techart@gmail">   
+                <br>   
+                    <label>Produto</label>
+                    <select>
+                        <option>Selecione seu produto</option>
+                        <option>Emotes Twitch</option>
+                        <option>Badges Twitch</option>
+                        <option>Ilustração</option>
+                        <option>Pacotão completo</option>
+                        <option>Faça seu pacote! (escreva na mensagem)</option>
+                    </select> 
+                <br>
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" cols="40" rows="20"></textarea>
+                <br>    
+                    <input type="submit" class="submit">
+                </div>
+            </form>
+        </section>
+    </header>
+    <footer>
+        <h1>Desenvolvido por <a href="https://github.com/gabriele-amaral" target="_blank">Gabriele Amaral</a></h1>
+    </footer>
+</body>
+</html>
